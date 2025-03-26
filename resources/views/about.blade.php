@@ -4,11 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primi passi con Laravel</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>About - Primi Passi</title>
 </head>
 
-<body>
-    <h1>About page</h1>
+<body class="bg-[#25282d] text-white">
+    <header class="p-4 bg-[#2a2d33] text-xl">
+        <nav class="flex space-x-4">
+            <a href="{{ route('home') }}">Home</a>
+            <a href="{{ route('about') }}">Chi Siamo</a>
+            <a href="{{ route('contacts') }}">Contatti</a>
+        </nav>
+    </header>
+    <h1 class="text-4xl">Pagina about</h1>
 </body>
 
 </html>
