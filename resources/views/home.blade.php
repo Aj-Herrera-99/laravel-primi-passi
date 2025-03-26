@@ -10,7 +10,14 @@
     <title>Primi passi con Laravel</title>
 </head>
 
-<body>
+<body class="bg-[#25282d] text-white">
+    <header class="p-4 bg-[#2a2d33] text-xl">
+        <nav class="flex space-x-4">
+            <a href="/">Home</a>
+            <a href="/about">Chi Siamo</a>
+            <a href="/contacts">Contatti</a>
+        </nav>
+    </header>
     <h1>Homepage</h1>
     <h2>Hello world!</h2>
 </body>
